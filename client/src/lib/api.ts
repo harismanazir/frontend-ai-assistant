@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "https://jarvis.loca.lt";
+const API_BASE_URL = "https://48a1a1c26667.ngrok-free.app";
 
 const api = axios.create({
   baseURL: API_BASE_URL,
