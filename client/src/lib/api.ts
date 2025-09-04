@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "https://reynolds-student-bye-monster.trycloudflare.com";
+const API_BASE_URL = "https://jarvis.loca.lt";
 
 const api = axios.create({
   baseURL: API_BASE_URL,
