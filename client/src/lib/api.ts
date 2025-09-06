@@ -13,7 +13,7 @@ export async function sendTextMessage(message: string) {
 
   const response = await api.post("/ask", formData, {
     headers: {
-      "Content-Type": "multipart/form-data",
+      "Content-Type": "multipart/form-data";
     },
   });
   return response.data;
