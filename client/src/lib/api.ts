@@ -17,7 +17,7 @@ export async function sendTextMessage(message: string) {
     },
   });
   return response.data;
-}
+}dsa
 
 export async function sendAudioMessage(audioBlob: Blob) {
   const formData = new FormData();
